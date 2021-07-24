@@ -5,6 +5,7 @@ module Ferrum
     module Options
       class Chrome < Base
         DEFAULT_OPTIONS = {
+          "proxy-server" => "socks5://localhost:9050",
           "headless" => nil,
           "disable-gpu" => nil,
           "hide-scrollbars" => nil,
